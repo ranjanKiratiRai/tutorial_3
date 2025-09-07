@@ -1,0 +1,60 @@
+/* General body styling */
+body {
+    color: navy;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Headings (h1, h2, h3...) */
+h1, h2, h3, h4, h5, h6 {
+    font-family: serif;
+    font-size: large;
+    color: orange;
+}
+
+/* Anchor tag styles */
+a:link {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+a:active {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00c000;
+    text-decoration: underline;
+}
+.leftcolumn {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #ccc;
+}
+
+.rightcolumn {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 240px; /* pushes right column beside left */
+    padding: 10px;
+    color: red;
+    background-color: #eee;
+}
+/* Apply background ONLY to fee.html */
+#feePage {
+    background-image: url("bg.jpg");
+    background-repeat: repeat;   /* try repeat-x, repeat-y, no-repeat */
+    background-position: top left;
+    background-attachment: fixed;
+}
